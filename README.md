@@ -1,21 +1,19 @@
 # OC_Projet_5
 
-# Olist - une entreprise brésilienne qui propose une solution de vente sur les marketplaces en ligne.
+# Olist - a Brazilian company offering a solution for selling on online marketplaces.
+Olist wishes for us to provide their e-commerce teams with customer segmentation that they can use daily for their communication campaigns.
 
-Olist souhaite que nous fournission à ses équipes d'e-commerce une segmentation des clients qu’elles pourront utiliser au quotidien pour leurs campagnes de communication.
+# The goal is to understand the different types of users based on their behavior and personal data.
+We need to provide the marketing team with an actionable description of our segmentation and its underlying logic for optimal use, as well as a proposal for a maintenance contract based on an analysis of the stability of the segments over time.
 
-# L'objectif est de comprendre les différents types d’utilisateurs grâce à leur comportement et à leurs données personnelles.
+# The Data
+For this mission, Olist provides us with an anonymized database containing information on the history of orders, purchased products, satisfaction comments, and the location of customers since January 2017.
 
-On doit fournir à l’équipe marketing une description actionable de notre segmentation et de sa logique sous-jacente pour une utilisation optimale, ainsi qu’une proposition de contrat de maintenance basée sur une analyse de la stabilité des segments au cours du temps.
+# The mission is to help Olist’s teams understand the different types of users.
+We will therefore use unsupervised methods to group customers with similar profiles. These categories can be used by the Marketing team to communicate more effectively.
 
-# Les données
-Pour cette mission, Olist nous fournit une base de données anonymisée comportant des informations sur l’historique de commandes, les produits achetés, les commentaires de satisfaction, et la localisation des clients depuis janvier 2017.
+The proposed segmentation must be operational and easy to use by the Marketing team. It must at a minimum be able to differentiate between good and less good customers in terms of orders and satisfaction.
 
-# La mission est d’aider les équipes d’Olist à comprendre les différents types d'utilisateurs. 
-Nous utiliserons donc des méthodes non supervisées pour regrouper des clients de profils similaires. Ces catégories pourront être utilisées par l’équipe Marketing pour mieux communiquer.
+Secondly, once the segmentation model is chosen, we must recommend the frequency at which the segmentation should be updated to remain relevant, in order to provide a maintenance contract quote.
 
-La segmentation proposée doit être exploitable et facile d’utilisation par  l'équipe Marketing. Elle doit au minimum pouvoir différencier les bons et moins bons clients en termes de commandes et de satisfaction. 
-
-Dans un deuxième temps, une fois le modèle de segmentation choisi, il faut  que nous  fassions une recommandation de fréquence à laquelle la segmentation doit être mise à jour pour rester pertinente, afin de pouvoir effectuer un devis de contrat de maintenance.
-
-Pour information, le code fourni doit respecter la convention PEP8, pour être utilisable par Olist.
+For your information, the provided code must adhere to the PEP8 convention to be usable by Olist.
